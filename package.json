@@ -4,13 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.2",
+    "jest": "^25.2.7",
     "supertest": "^4.0.2"
   },
   "dependencies": {
@@ -18,7 +20,6 @@
     "cors": "^2.8.5",
     "cross-env": "^7.0.2",
     "express": "^4.17.1",
-    "jest": "^25.2.7",
     "knex": "^0.20.13",
     "sqlite3": "^4.1.1"
   }
